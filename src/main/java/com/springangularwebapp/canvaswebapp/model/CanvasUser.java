@@ -10,7 +10,7 @@ public class CanvasUser implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)
-    private long id;
+    private Long id;
     private String userName;
     private String email;
     private String phoneNumber;
@@ -18,12 +18,12 @@ public class CanvasUser implements Serializable {
     private String jobTitle;
     private String imageUrl;
     @Column(nullable = false, updatable = false)
-    private long employeeId;
+    private String employeeId;
 
     public CanvasUser() {
     }
 
-    public CanvasUser(String userName, String email, String phoneNumber, String company, String jobTitle, String imageUrl, long employeeId) {
+    public CanvasUser(String userName, String email, String phoneNumber, String company, String jobTitle, String imageUrl, String employeeId) {
         this.userName = userName;
         this.email = email;
         this.phoneNumber = phoneNumber;
@@ -89,11 +89,11 @@ public class CanvasUser implements Serializable {
         this.imageUrl = imageUrl;
     }
 
-    public long getEmployeeId() {
+    public String getEmployeeId() {
         return employeeId;
     }
 
-    public void setEmployeeId(long employeeId) {
+    public void setEmployeeId(String employeeId) {
         this.employeeId = employeeId;
     }
 
