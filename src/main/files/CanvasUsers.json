@@ -1,0 +1,48 @@
+{
+  "userName" : "Emile",
+  "email" : "emile@emile.com",
+  "phoneNumber" : "000000111",
+  "company" : "EmileCompany",
+  "jobTitle" : "Java Dev",
+  "imageUrl" :"https://bootdey.com/img/content/avatar/avatar6.png"
+}
+{
+  "userName" : "AnneLyse",
+  "email" : "anne@lyse.com",
+  "phoneNumber" : "001100111",
+  "company" : "AnneLyseCompany",
+  "jobTitle" : "Designer",
+  "imageUrl" :"https://bootdey.com/img/content/avatar/avatar5.png"
+}
+{
+  "userName" : "Olympe",
+  "email" : "oly@mpe.com",
+  "phoneNumber" : "222000111",
+  "company" : "EmileCompany",
+  "jobTitle" : "Baby",
+  "imageUrl" :"https://bootdey.com/img/content/avatar/avatar4.png"
+}
+{
+  "userName" : "Gandalf",
+  "email" : "ring@fellow.com",
+  "phoneNumber" : "000111111",
+  "company" : "Fellowship Of The Ring",
+  "jobTitle" : "Wizard",
+  "imageUrl" :"https://bootdey.com/img/content/avatar/avatar3.png"
+}
+{
+  "userName" : "Gimli",
+  "email" : "gimli@dwarf.com",
+  "phoneNumber" : "011111111",
+  "company" : "Fellowship Of The Ring",
+  "jobTitle" : "Dwarf",
+  "imageUrl" :"https://bootdey.com/img/content/avatar/avatar2.png"
+}
+{
+  "userName" : "Aragorn",
+  "email" : "aragorn@king.com",
+  "phoneNumber" : "234111111",
+  "company" : "Fellowship Of The Ring",
+  "jobTitle" : "King",
+  "imageUrl" :"https://bootdey.com/img/content/avatar/avatar1.png"
+}

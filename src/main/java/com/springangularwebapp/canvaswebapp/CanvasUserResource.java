@@ -5,6 +5,7 @@ import com.springangularwebapp.canvaswebapp.service.CanvasService;
 import org.aspectj.weaver.tools.cache.CacheBacking;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -42,6 +43,7 @@ public class CanvasUserResource {
         return new ResponseEntity<>(updatedCanvasUser, HttpStatus.OK);
     }
 
+    @Transactional
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> deleteCanvasUser(@PathVariable("id") Long id) {
         canvasService.deleteCanvasUser(id);
